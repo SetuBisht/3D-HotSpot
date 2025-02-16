@@ -1,7 +1,0 @@
- {
-      "mobile_model" : "model/mobile_tester.glb",
-      "desktop_model" : "model/desktop_tester.glb",
-      "tablet_model" : "model/tablet_tester.glb",
-      "unknown_model" : "model/unkown_tester.glb",
-      "anim_test" : "model/monkey_anim_test.glb"
-}

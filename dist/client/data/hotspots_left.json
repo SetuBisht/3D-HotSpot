@@ -1,0 +1,96 @@
+[
+    {
+      "title": "1. Front Trafficator Left Side",
+      "description": "Front Trafficator Left Side",
+      "hotspots_preview":"/content/dam/royal-enfield/scram-digital-quickstart/resources/videos/turn_signal_video.mp4",
+      "camPos": {
+        "x": -1.112,
+        "y": 0.812,
+        "z": 1.101
+      },
+
+      "lookAt": {
+        "x": -0.519,
+        "y": 1.067,
+        "z": 0.207
+      }
+      ,
+    "outline":"front_left_ind_hot",
+    "thumbnail":"/content/dam/royal-enfield/scram-digital-quickstart/resources/thumbnails/turn_signal.png"
+    },
+  
+    {
+      "title": "2. Tail Lamp",
+      "description": "Tail Lamp",
+      "hotspots_preview":"/content/dam/royal-enfield/scram-digital-quickstart/resources/videos/tail lamp.mp4",
+      "camPos": {
+        "x": 1.475,
+        "y": 1.066,
+        "z": 0.705
+      },
+      "lookAt": {
+        "x": 0.846,
+        "y": 0.939,
+        "z": 0
+      } ,
+    "outline":"tail_hot",
+     "thumbnail":"/content/dam/royal-enfield/scram-digital-quickstart/resources/thumbnails/tail_lamp.png"
+    },
+  
+    {
+      "title": "3. Rear Trafficator Left Side",
+      "description": "Rear Trafficator Left Side",
+      "hotspots_preview":"/content/dam/royal-enfield/scram-digital-quickstart/resources/videos/turn_signal_video.mp4",
+      "camPos": {
+         "x": 1.407,
+        "y": 0.911,
+        "z": 0.791
+      },
+      "lookAt": {
+        "x": 0.937,
+        "y": 0.822,
+        "z": 0.143
+      },
+    "outline":"rear_left_ind_hot",
+     "thumbnail":"/content/dam/royal-enfield/scram-digital-quickstart/resources/thumbnails/turn_signal.png"
+    },
+  
+    {
+      "title": "4. Side Stand",
+      "description": "Side Stand",
+      "hotspots_preview":"/content/dam/royal-enfield/scram-digital-quickstart/resources/videos/side stand.mp4",
+      "camPos": {
+        "x": -0.113,
+        "y": 0.796,
+        "z": 1.831
+      },
+      "lookAt": {
+        "x": 0.172,
+        "y": 0.286,
+        "z": 0.161
+      },
+    "outline":"stand_hot",
+    "animation":["Body521Action"],
+     "thumbnail":"/content/dam/royal-enfield/scram-digital-quickstart/resources/thumbnails/side_stand.png"
+    },
+  
+    {
+      "title": "5. Gear Change Lever",
+      "description": "Gear Change Lever",
+      "hotspots_preview":"/content/dam/royal-enfield/scram-digital-quickstart/resources/videos/gear change level.mp4",
+    
+      "camPos": {
+        "x": 0.047,
+        "y": 0.720,
+        "z": 0.907
+      },
+      "lookAt": {
+        "x": 0.064,
+        "y": 0.320,
+        "z": 0.209
+      },
+      "outline":"gear_hot",
+      "animation":["gear_hotAction"],
+       "thumbnail":"/content/dam/royal-enfield/scram-digital-quickstart/resources/thumbnails/gear_change.png"
+    }
+  ]

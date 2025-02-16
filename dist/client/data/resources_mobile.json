@@ -1,0 +1,17 @@
+ {
+    "scram_model" : "3d/29-04-22.glb",
+    "LH_model" : "3d/LH_switch.glb",
+    "RH_model" : "3d/RH_switch.glb",
+    "shadow_model" : "3d/shadowcatcher.glb",
+    "env_hdr" : "res/custom_HDRI_06.hdr",
+    "hotspots_closeicon" : "res/close.png",
+    "hotspots_fullicon" : "res/fullscreen_white.png",
+    "hotspot_sprite" : "res/hot.png",
+    "shadowcatcher_AO_img" : "res/shadowcatcher_ao.png",
+    "shadowcatcher_ALPHA_img" : "res/shadowcatcher_alpha_3.png",
+    "draco_path" : "/js/libs/draco/",
+    "hotspot_top_json" : "/data/hotspots_top_mobile.json",
+    "hotspot_left_json" : "/data/hotspots_left_mobile.json",
+    "hotspot_right_json" : "/data/hotspots_right.json",
+    "AEM_PATH" : "/content/dam/royal-enfield/scram-digital-quickstart/(json or 3D or js or resources)/ "
+ }
