@@ -1,11 +1,10 @@
 # These are some examples of commonly ignored file patterns.
 # You should customize this list as applicable to your project.
 # Learn more about .gitignore:
-#  https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+# https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 
 # Node artifact files
 node_modules/
-dist/client/3d/ignore_glb/
 
 # Compiled Java class files
 *.class
@@ -48,6 +47,15 @@ Thumbs.db
 *.mov
 *.wmv
 
-package-lock.json
-
-
+# Application Files
+*.blend
+*.blend1
+*.blend2
+*.blend3
+*.blend4
+*.blend5
+*.blend6
+*.blend7
+*.blend8
+*.blend9
+*.blend10

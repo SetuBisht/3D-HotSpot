@@ -1,0 +1,20 @@
+{
+    "DRACO" : "/content/dam/re-platform-images/digital-quickstart/hunter/explore/hotspot/res/libs/draco/",
+    "Hunter350" : "/content/dam/re-platform-images/digital-quickstart/hunter/explore/hotspot/res/model/hunter350.glb",
+    "Anim" : "/content/dam/re-platform-images/digital-quickstart/hunter/explore/hotspot/res/model/anim.glb",
+    "Scram411" : "/content/dam/re-platform-images/digital-quickstart/hunter/explore/hotspot/res/model/Scram411_live.glb",
+    "HDRI" : "/content/dam/re-platform-images/digital-quickstart/hunter/explore/hotspot/res/env/imageedit_2_9736170031.hdr",
+    "Sprite" : "/content/dam/re-platform-images/digital-quickstart/hunter/explore/hotspot/res/texture/hotspot_img_original_thick.png",
+    "shadowcatcher_AO" : "/content/dam/re-platform-images/digital-quickstart/hunter/explore/hotspot/res/texture/shadowcatcher_ao.png",
+    "shadowcatcher_ALPHA" : "/content/dam/re-platform-images/digital-quickstart/hunter/explore/hotspot/res/texture/shadowcatcher_alpha_3.png",
+    "shadow_model" : "/content/dam/re-platform-images/digital-quickstart/hunter/explore/hotspot/res/model/shadowcatcher.glb",
+    "Top_Anim" : "/content/dam/re-platform-images/digital-quickstart/hunter/explore/hotspot/res/model/anim_top.glb",
+    "Left_Anim" : "/content/dam/re-platform-images/digital-quickstart/hunter/explore/hotspot/res/model/anim_left.glb",
+    "Right_Anim" : "/content/dam/re-platform-images/digital-quickstart/hunter/explore/hotspot/res/model/anim_right.glb",
+    "Top_outline" : "/content/dam/re-platform-images/digital-quickstart/hunter/explore/hotspot/res/model/outline_top.glb",
+    "left_outline" : "/content/dam/re-platform-images/digital-quickstart/hunter/explore/hotspot/res/model/outline_left.glb",
+    "right_outline" : "/content/dam/re-platform-images/digital-quickstart/hunter/explore/hotspot/res/model/outline_right.glb",
+    "Start_audio" : "/content/dam/re-platform-images/digital-quickstart/hunter/explore/hotspot/res/audio/j1c_start.ogg",
+    "Stop_audio" : "/content/dam/re-platform-images/digital-quickstart/hunter/explore/hotspot/res/audio/j1c_stop.ogg",
+    "Horn_audio" : "/content/dam/re-platform-images/digital-quickstart/hunter/explore/hotspot/res/audio/j1c_horn.ogg"
+}

@@ -3,91 +3,68 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Explore Scram411</title>
+        <title> RE Hunter 350 Hotspot</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <div id="header"></div>
+        <!-- <div id="header"></div> -->
         <section id="Explore3D-wrap">
-           
-          
-            
-            <!-- <div id="buttonManager">
-                <span id="buttonManager_text">OFF</span>
-            </div> -->
-           
+            <div id="loader-wrap">
+                <!-- <h2 id="product-name" >Hunter350</h2> -->
+                <img id="loading-image" src="res/img/loader_logo_img.png">
+                <!-- <img id="loading-image" src="/content/dam/re-platform-images/digital-quickstart/hunter/explore/hotspot/res/img/loader_logo_img.png"> -->
+                <p id="loading-text">LOADING 3D PREVIEW...</p>
+            </div>
             <div class="threed_container">
-                <div id="loader-wrap">
-                    <div id="loading-bar"> Loading 3D Preview...</div>
-                    <!-- <img id="loading-logo" src="res/preloader_logo.gif"> -->
-                </div>
                 <canvas id="webgl"></canvas>
                 <div id="menu-view" class="menu-view-hide">
-                    <button id="view-top" src="res/preloader_logo.gif">Top</button>
-                    <div class="trapezoidTop"></div>
-                    <button id="view-left" src="res/preloader_logo.gif">Left</button>
-                    <div class="trapezoidLeft"></div>
-                    <button id="view-right" src="res/preloader_logo.gif">Right</button>
-                    <div class="trapezoidRight">
-                
-                    </div>
-                    <button id="view-reset" src="res/preloader_logo.gif"><img class="resetImg" src="res/refresh.png"></button>
                     <p id="view-text">Select Camera view to explore</p>
+                    <button id="view-top">Top</button>
+                    <button id="view-left">Left</button>
+                    <button id="view-right">Right</button>
+                    <button id="view-reset"><img class="resetImg" src="res/img/reset_img.webp"></button>
+                    
                 </div>
                 <div id="menu-view-mob">
                     <button id="view-mob-left"><img class="left-mob-image" src="res/leftview.png" /><span>Left</span></button>
                     <button id="view-mob-top"><img class="top-mob-image" src="res/leftview.png" /><span>Top</span></button>
                     <button id="view-mob-right"><img class="right-mob-image" src="res/leftview.png" /><span>Right</span></button>
                     <button id="view-mob-reset"><img class="reset-mob-image" src="res/reset_mob.png"><span>Reset</button>
-                </div>
-                <div class="scrollController">
-                    <button class="leftButton">  </button>
-                    <button class="rightButton">
-                     > </button>
+                    <!-- <button id="view-mob-left"><img class="left-mob-image" src="/content/dam/re-platform-images/digital-quickstart/hunter/explore/hotspot/res/leftview.png"><span>Left</span></button>
+                    <button id="view-mob-top"><img class="top-mob-image" src="/content/dam/re-platform-images/digital-quickstart/hunter/explore/hotspot/res/leftview.png"><span>Top</span></button>
+                    <button id="view-mob-right"><img class="right-mob-image" src="/content/dam/re-platform-images/digital-quickstart/hunter/explore/hotspot/res/leftview.png"><span>Right</span></button>
+                    <button id="view-mob-reset"><img class="reset-mob-image" src="/content/dam/re-platform-images/digital-quickstart/hunter/explore/hotspot/res/reset_mob.png"><span>Reset</button> -->
                 </div>
                 <div id="menu-hotspots">
-                    <div id="hotspots-head">SELECT VIEW</div>
-                    <div id="hotspots-list-top"></div>
-                    <div id="hotspots-list-left"></div>
-                    <div id="hotspots-list-right"></div>
+                    <h3 id="hotspots-head"></h3>
+                    <div id="hotspots-list"></div>
                 </div>
                 <div class="hotspot_detail_container">
                     <div class="detail_headers">
-                        <span class="detail_title">asdasdasdadadsadaasadasdasdads</span>
-                        <div class="detail_close" ><img class="detail_close_img"src="res/close.png" /></div>
+                       <div class="detail_container">
+                            <span class="detail_title"></span>
+                            <button id="detail_close"><img class="detail_close_img" src="res/img/close_img.png" /></button>
+                            <!-- <button id="detail_close"><img class="detail_close_img" src="/content/dam/re-platform-images/digital-quickstart/hunter/explore/hotspot/res/img/close_img.png" /></button> -->
+                        </div>
+
                     </div>
                     <div class="detail_body">
-                        <div class="detail_loader"><img class="loading_thumbnail" src=""></div>
-                        <video class="detail_vedio" controls="controls" loop>
-                            <source src="" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
-                        </video>
+                        <img id="hotspot-media-1" >
+                        <img id="hotspot-media-2" >
                     </div>
-                    
                 </div>
-
-                <label class="switch" id="switch">
-                    <input type="checkbox" id="checkbox">
-                    <span class="slider round"></span>
-                </label>
+                <div class="tooltip-guide">
+                    <p class="tooltip-right-left">* Click on the highlighted area to view the functions</p>
+                </div>
                 <div class="landscapeError">
-                    <img class="error" src="res/landscape.png">
-                
-                </div>
-                <div class="scroll-message">Scroll Right to explore
-                    
-                </div>
-                <!-- <div class="scramText"><div>SCRAM</div></div> -->
+					<img class="error" src="res/landscape.png" />
+                    <!-- <img class="error" src="/content/dam/re-platform-images/digital-quickstart/hunter/explore/hotspot/res/landscape.png" /> -->
+				</div>
             </div>
-           
         </section>
-        <div id="header"></div>
-    <video poster="placeholder.jpg" id="backgroundvid"  disablepictureinpicture>
-        <source  src="" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
-    </video>
-   
         <script type="module" src="bundle.js"></script>
     </body>
 </html>
