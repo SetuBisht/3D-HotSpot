@@ -772,7 +772,6 @@ scene.add( loadingoverlay )
 const globalParser = () => {
     const resources_Download = new XMLHttpRequest()
     resources_Download.open('GET', '/data/resources_local.json') // Local
-    // resources_Download.open('GET', '/content/dam/re-platform-images/digital-quickstart/hunter/explore/hotspot/data/resources_aem.json') // AEM
     resources_Download.onreadystatechange = function () {
         if ( resources_Download.readyState === 4 ) {
             resources = JSON.parse( resources_Download.responseText )
